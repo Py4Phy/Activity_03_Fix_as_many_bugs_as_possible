@@ -1,0 +1,204 @@
+{
+  "tests": [
+    {
+      "name": "Test: Problem 1 / runs",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_1/test_runs.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 1 / print_sequence",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_1/test_print_sequence.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 2 / runs",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_2/test_runs.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 2 / print_squares",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_2/test_print_squares.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 3 / runs",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_3/test_runs.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 3 / print_error",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_3/test_print_error.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 3 / print_inverse_two",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_3/test_print_inverse_two.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 3 / print_inverse_half",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_3/test_print_inverse_half.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 3 / print_inverse_eighth",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_3/test_print_inverse_eighth.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 4 / imports_math",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_4/test_imports_math.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test: Problem 4 / sinc",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_4/test_sinc.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 5 / runs",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_5/test_runs.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 5 / correct_index",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_5/test_correct_index.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test: Problem 6 / sequence",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_6/test_sequence.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test: Problem 7 / sinc",
+      "setup": "sudo -H pip3 install pytest matplotlib",
+      "run": "pytest --tb=line tests/problem_7/test_sinc.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Test: Problem 7 / small",
+      "setup": "sudo -H pip3 install pytest matplotlib",
+      "run": "pytest --tb=line tests/problem_7/test_small.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 8 / runs",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=short tests/problem_8/test_runs.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test: Problem 8 / sum_of_squares",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest --tb=line tests/problem_8/test_sum_of_squares.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 4
+    },
+    {
+      "name": "Test: Problem 9 / runs",
+      "setup": "sudo -H pip3 install pytest pytest-timeout",
+      "run": "pytest --tb=short tests/problem_9/test_runs.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    },
+    {
+      "name": "Test: Problem 9 / values",
+      "setup": "sudo -H pip3 install pytest pytest-timeout",
+      "run": "pytest --tb=short tests/problem_9/test_values.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    }
+  ]
+}
